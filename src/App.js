@@ -1,4 +1,4 @@
-//BrowserRouter: <BrowserRouter>で囲った配下でルーティングを有効化する
+//BrowserRouter: <BrowserRouter>で囲った配下でルーティングを有効化する。プロジェクトにつき1つ
 //Link: aタグのようにlinkを意味する
 //Switch: Linkと遷移先の紐付けを行う設定。<Switch>内にルーティングの設定を記述する
 //Route: どのpathにどのコンポーネントを出力するか
