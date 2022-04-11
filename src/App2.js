@@ -1,9 +1,14 @@
-import { Router } from "./router/Router2";
+import { UserProvider } from "./providers/UserProvider";
+import { Router2 } from "./router/Router2";
 import "./style.css";
+import React from "react";
+
 
 export default function App2() {
   return (
-    <Router/>
+    <UserProvider>
+      <Router2/>
+    </UserProvider>
   );
 }
 

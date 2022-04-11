@@ -3,8 +3,9 @@ import { Top } from "../components/pages/Top";
 import { Users } from "../components/pages/Users";
 import { DefaultLayout } from "../components/templates/DefaultLayout";
 import { HeaderOnly } from "../components/templates/HeaderOnly";
+import React from "react";
 
-export const Router = () => {
+export const Router2 = () => {
   return (
     <BrowserRouter>
       <Switch>
